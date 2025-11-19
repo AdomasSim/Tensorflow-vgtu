@@ -41,10 +41,56 @@ Kataloge `/data/` pateikiami demonstraciniai End-to-End pavyzdžiai, naudojant (
   - `y_plan.txt` – sugeneruotas mokymosi planas
   - `y_chat.txt` – pavyzdinis klausimas–atsakymas
 
-Analogiškai:  
-- `data/example2/`  
-- `data/example3/`
+Kai įdedamas **X** (įvestis — mokymo medžiagos tekstas), DI turi sugeneruoti keturias skirtingas išvestis (**Y**):
 
+---
+
+### ✅ 1. `y_summary.txt` — santrauka
+
+Tai AI sugeneruota dokumento santrauka:
+
+- glaustas originalaus teksto apibendrinimas,
+- 5–7 sakiniai,
+- parodo, kad DI supranta dokumento esmę.
+
+**Naudojimas:** pademonstruoja, kad sistema teisingai generuoja santraukas.
+
+---
+
+### ✅ 2. `y_test.txt` — sugeneruotas testas
+
+Tai testas, kurį AI sukuria remdamasis mokymo medžiaga.
+
+Jame būna:
+
+- klausimai,  
+- 4 atsakymo variantai,  
+- kuris variantas teisingas,  
+- teisingo atsakymo paaiškinimas.
+
+**Naudojimas:** parodo, kad AI gali kurti mokymosi vertinimo užduotis iš X turinio.
+
+---
+
+### ✅ 3. `y_plan.txt` — mokymosi planas
+
+Generatyvinis DI sukuria mokymosi planą — kaip studentas turėtų mokytis temą žingsnis po žingsnio:
+
+- paprastai 5 žingsniai,  
+- nuo teorijos skaitymo iki praktikos.
+
+**Naudojimas:** demonstruoja personalizuotą mokymosi rekomendacijų generavimą.
+
+---
+
+### ✅ 4. `y_chat.txt` — pavyzdinis klausimas / atsakymas (chat)
+
+Tai trumputė AI pokalbio su studentu simuliacija:
+
+- studentas užduoda klausimą apie X medžiagą,  
+- AI atsako remdamasis tekstu.
+
+**Naudojimas:** parodo, kad sistema gali veikti kaip kontekstinis pokalbių botas.
 ---
 
 ## Promptų struktūra (`/prompts/`)
