@@ -1,0 +1,54 @@
+@startuml
+left to right direction
+
+actor Student as S
+actor Teacher as T
+actor Admin as A
+
+rectangle "AI Learning Assistant" {
+  usecase "Prisijungti" as UC_Login
+  usecase "Registruotis" as UC_Register
+  usecase "Įkelti mokymo medžiagą" as UC_Upload
+  usecase "Peržiūrėti dokumentų sąrašą" as UC_ListDocs
+  usecase "Peržiūrėti santrauką" as UC_ViewSummary
+  usecase "Generuoti santrauką" as UC_GenSummary
+  usecase "Generuoti testą" as UC_GenTest
+  usecase "Spręsti testą" as UC_TakeTest
+  usecase "Peržiūrėti testų rezultatus" as UC_ViewResults
+  usecase "Generuoti mokymosi planą" as UC_GenPlan
+  usecase "Peržiūrėti mokymosi planą" as UC_ViewPlan
+  usecase "Pokalbis su AI apie dokumentą" as UC_Chat
+  usecase "Valdyti vartotojus" as UC_UserMgmt
+  usecase "Valdyti kursus" as UC_CourseMgmt
+}
+
+S --> UC_Register
+S --> UC_Login
+S --> UC_Upload
+S --> UC_ListDocs
+S --> UC_GenSummary
+S --> UC_ViewSummary
+S --> UC_GenTest
+S --> UC_TakeTest
+S --> UC_ViewResults
+S --> UC_GenPlan
+S --> UC_ViewPlan
+S --> UC_Chat
+
+T --> UC_Login
+T --> UC_Upload
+T --> UC_ListDocs
+T --> UC_GenSummary
+T --> UC_ViewSummary
+T --> UC_GenTest
+T --> UC_ViewResults
+T --> UC_GenPlan
+T --> UC_ViewPlan
+T --> UC_Chat
+T --> UC_CourseMgmt
+
+A --> UC_Login
+A --> UC_UserMgmt
+A --> UC_CourseMgmt
+
+@enduml

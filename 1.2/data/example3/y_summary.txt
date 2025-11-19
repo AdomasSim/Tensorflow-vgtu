@@ -1,0 +1,4 @@
+Santrauka:
+SQL SELECT užklausa leidžia pasirinkti konkrečius stulpelius ir eilutes iš lentelės pagal sąlygas.
+Naudojant WHERE galima filtruoti rezultatus, o ORDER BY - juos surūšiuoti.
+Pavyzdyje atrenkami visi naudotojai, vyresni nei 18 metų.

@@ -1,0 +1,7 @@
+Mokymosi planas:
+
+1 žingsnis: Perskaityk teoriją apie dvejetainės sistemos esmę ir skaitmenis 0 ir 1.
+2 žingsnis: Išmok, kaip pozicijos susietos su dvejeto laipsniais (1, 2, 4, 8, 16...).
+3 žingsnis: Praktikuok konvertavimą iš dešimtainės sistemos į dvejetainę su 10–15 pavyzdžių.
+4 žingsnis: Praktikuok atvirkštinį konvertavimą - iš dvejetainės į dešimtainę.
+5 žingsnis: Susiek dvejetainės sistemos žinias su kompiuterių architektūra (bitai, baitai, registrai).

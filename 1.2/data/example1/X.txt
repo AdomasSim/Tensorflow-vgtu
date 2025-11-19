@@ -1,0 +1,4 @@
+Dvejetainė skaičiavimo sistema naudoja tik du skaitmenis: 0 ir 1.
+Kiekviena pozicija reiškia dvejeto laipsnį: 1, 2, 4, 8, 16 ir t.t.
+Pavyzdžiui, skaičius 5 dvejetainėje sistemoje yra 101, nes 4 + 1 = 5.
+Kompiuteriai naudoja dvejetainę sistemą, nes elektroniniai komponentai turi dvi būsenas: įjungta ir išjungta.

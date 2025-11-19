@@ -1,0 +1,47 @@
+@startuml
+package "Frontend (Web UI - React)" {
+  [Web App] as FE
+}
+
+package "Backend API (FastAPI)" {
+  [Auth Service] as Auth
+  [User Service] as UserSvc
+  [Document Service] as DocSvc
+  [Summary Service] as SumSvc
+  [Test Service] as TestSvc
+  [Learning Plan Service] as PlanSvc
+  [Chat Service] as ChatSvc
+}
+
+package "AI Layer" {
+  [LLM Client] as LLM
+  [Embedding Service] as Emb
+}
+
+database "PostgreSQL" as DB
+cloud "Object Storage\n(PDF/DOCX)" as Storage
+cloud "LLM Provider\n(OpenAI/Gemini/Llama/...)" as AI
+
+FE --> Auth : HTTP/JSON
+FE --> DocSvc : HTTP/JSON
+FE --> SumSvc : HTTP/JSON
+FE --> TestSvc : HTTP/JSON
+FE --> PlanSvc : HTTP/JSON
+FE --> ChatSvc : HTTP/JSON
+FE --> UserSvc : HTTP/JSON
+
+Auth --> DB
+UserSvc --> DB
+DocSvc --> DB
+DocSvc --> Storage
+DocSvc --> Emb
+Emb --> AI
+
+SumSvc --> LLM
+TestSvc --> LLM
+PlanSvc --> LLM
+ChatSvc --> LLM
+
+LLM --> AI
+
+@enduml

@@ -1,0 +1,34 @@
+Naudok žemiau pateiktą mokymo medžiagą kaip X ir sugeneruok Y išvestis:
+
+Y turi sudaryti:
+1) Santrauka (5–7 sakiniai)
+2) Testas:
+   - 3 klausimai
+   - 4 atsakymo variantai
+   - nurodyk teisingą variantą
+   - pridėk teisingo atsakymo paaiškinimą
+3) Mokymosi planas (5 žingsniai)
+4) Vienas klausimas → AI atsakymas (chat)
+
+Išvestis turi būti tekstinė ir tinkama įrašyti į:
+- y_summary.txt
+- y_test.txt
+- y_plan.txt
+- y_chat.txt
+
+====================================
+X — Mokymo medžiaga
+====================================
+
+HTTP (HyperText Transfer Protocol) yra ryšio protokolas, naudojamas žiniatinklyje.
+Dažniausiai naudojami HTTP metodai yra GET, POST, PUT ir DELETE.
+GET užklausa naudojama duomenims gauti, o POST - duomenims siųsti į serverį.
+HTTP atsako kodai, tokie kaip 200, 404 ir 500, nurodo, ar užklausa pavyko, ar įvyko klaida.
+
+====================================
+Sugeneruok Y išvestį šia tvarka:
+1) y_summary
+2) y_test
+3) y_plan
+4) y_chat
+====================================

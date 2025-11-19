@@ -1,0 +1,35 @@
+Naudok žemiau pateiktą mokymo medžiagą kaip X ir sugeneruok Y išvestis:
+
+Y turi sudaryti:
+1) Santrauka (5–7 sakiniai)
+2) Testas:
+   - 3 klausimai
+   - 4 atsakymo variantai
+   - nurodyk teisingą variantą
+   - pridėk teisingo atsakymo paaiškinimą
+3) Mokymosi planas (5 žingsniai)
+4) Vienas klausimas → AI atsakymas (chat)
+
+Išvestis turi būti tekstinė ir tinkama įrašyti į:
+- y_summary.txt
+- y_test.txt
+- y_plan.txt
+- y_chat.txt
+
+====================================
+X — Mokymo medžiaga
+====================================
+
+SQL SELECT užklausa naudojama duomenims pasirinkti iš lentelės.
+Pavyzdžiui, komanda:
+SELECT name, age FROM users WHERE age > 18;
+grąžina visus naudotojus, kurių amžius didesnis nei 18.
+Papildomai galima naudoti ORDER BY, kad surūšiuotume rezultatus pagal pasirinktą stulpelį.
+
+====================================
+Sugeneruok Y išvestį šia tvarka:
+1) y_summary
+2) y_test
+3) y_plan
+4) y_chat
+====================================

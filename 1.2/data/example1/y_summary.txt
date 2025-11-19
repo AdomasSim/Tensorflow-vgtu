@@ -1,0 +1,4 @@
+Santrauka:
+Dvejetainė sistema naudoja tik skaitmenis 0 ir 1, o kiekviena pozicija atitinka dvejeto laipsnį.
+Skaičius 5 dvejetainėje sistemoje užrašomas 101, nes 4 + 1 = 5.
+Kompiuteriai remiasi dvejetaine sistema, nes elektroniniai komponentai turi dvi aiškias būsenas - įjungta ir išjungta.

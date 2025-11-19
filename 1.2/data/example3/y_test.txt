@@ -1,0 +1,27 @@
+Testas:
+
+1) Kam naudojama SQL SELECT užklausa?
+   A) Lentelės sukūrimui
+   B) Duomenims pasirinkti iš lentelės
+   C) Duomenims ištrinti
+   D) Duomenų tipams aprašyti
+   Teisingas atsakymas: B
+   Paaiškinimas: SELECT komanda skirta duomenų skaitymui.
+
+2) Ką daro WHERE sąlyga?
+   A) Nustato lentelės pavadinimą
+   B) Surūšiuoja rezultatus
+   C) Filtruoja eilutes pagal sąlygą
+   D) Pakeičia stulpelių pavadinimus
+   Teisingas atsakymas: C
+   Paaiškinimas: WHERE riboja, kurios eilutės patenka į rezultatą.
+
+3) Kuri dalis užklausoje
+   SELECT name, age FROM users WHERE age > 18;
+   nusako lentelę?
+   A) SELECT
+   B) name, age
+   C) FROM users
+   D) WHERE age > 18
+   Teisingas atsakymas: C
+   Paaiškinimas: Po FROM nurodoma, iš kurios lentelės imami duomenys.

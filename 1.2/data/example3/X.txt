@@ -1,0 +1,5 @@
+SQL SELECT užklausa naudojama duomenims pasirinkti iš lentelės.
+Pavyzdžiui, komanda:
+SELECT name, age FROM users WHERE age > 18;
+grąžina visus naudotojus, kurių amžius didesnis nei 18.
+Papildomai galima naudoti ORDER BY, kad surūšiuotume rezultatus pagal pasirinktą stulpelį.

@@ -1,0 +1,4 @@
+Santrauka:
+HTTP yra žiniatinklio ryšio protokolas, leidžiantis klientui ir serveriui apsikeisti duomenimis.
+Pagrindiniai metodai - GET ir POST - naudojami duomenims gauti ir siųsti.
+Atsako kodai (pvz., 200, 404, 500) informuoja apie užklausos rezultatą ir galimas klaidas.

@@ -1,0 +1,7 @@
+Klausimas:
+Kodėl dvejetainėje sistemoje užtenka tik dviejų skaitmenų?
+
+AI atsakymas:
+Dvejetainėje sistemoje užtenka dviejų skaitmenų – 0 ir 1 – nes ji paremta dvejeto laipsniais.
+Kiekviena pozicija atspindi, ar atitinkamas dvejeto laipsnis yra įtrauktas (1) ar ne (0) į skaičiaus sumą.
+Tai yra patogu kompiuteriams, nes elektroniniai komponentai lengvai realizuoja dvi būsenas: yra srovė (1) arba jos nėra (0).

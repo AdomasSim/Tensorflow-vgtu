@@ -1,0 +1,25 @@
+Testas:
+
+1) Kam naudojamas HTTP protokolas?
+   A) Vaizdo suspaudimui
+   B) Failų šifravimui
+   C) Ryšiui žiniatinklyje tarp kliento ir serverio
+   D) Operacinių sistemų atnaujinimui
+   Teisingas atsakymas: C
+   Paaiškinimas: HTTP aprašo, kaip klientas ir serveris keičiasi žinutėmis žiniatinklyje.
+
+2) Koks HTTP metodas dažniausiai naudojamas duomenims gauti?
+   A) POST
+   B) PUT
+   C) DELETE
+   D) GET
+   Teisingas atsakymas: D
+   Paaiškinimas: GET metodas skirtas duomenų gavimui iš serverio.
+
+3) Ką reiškia atsako kodas 404?
+   A) Užklausa pavyko
+   B) Serverio klaida
+   C) Resursas nerastas
+   D) Netinkama užklausa
+   Teisingas atsakymas: C
+   Paaiškinimas: 404 reiškia, kad serveris nerado prašomo resurso.

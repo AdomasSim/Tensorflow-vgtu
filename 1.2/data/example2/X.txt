@@ -1,0 +1,4 @@
+HTTP (HyperText Transfer Protocol) yra ryšio protokolas, naudojamas žiniatinklyje.
+Dažniausiai naudojami HTTP metodai yra GET, POST, PUT ir DELETE.
+GET užklausa naudojama duomenims gauti, o POST - duomenims siųsti į serverį.
+HTTP atsako kodai, tokie kaip 200, 404 ir 500, nurodo, ar užklausa pavyko, ar įvyko klaida.

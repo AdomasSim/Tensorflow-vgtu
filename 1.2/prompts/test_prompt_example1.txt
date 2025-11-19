@@ -1,0 +1,34 @@
+Naudok žemiau pateiktą mokymo medžiagą kaip X ir sugeneruok Y išvestis:
+
+Y turi sudaryti:
+1) Santrauka (5–7 sakiniai)
+2) Testas:
+   - 3 klausimai
+   - 4 atsakymo variantai
+   - nurodyk teisingą variantą
+   - pridėk teisingo atsakymo paaiškinimą
+3) Mokymosi planas (5 žingsniai)
+4) Vienas klausimas → AI atsakymas (chat)
+
+Išvestis turi būti tekstinė ir tinkama įrašyti į:
+- y_summary.txt
+- y_test.txt
+- y_plan.txt
+- y_chat.txt
+
+====================================
+X — Mokymo medžiaga
+====================================
+
+Dvejetainė skaičiavimo sistema naudoja tik du skaitmenis: 0 ir 1.
+Kiekviena pozicija reiškia dvejeto laipsnį: 1, 2, 4, 8, 16 ir t.t.
+Pavyzdžiui, skaičius 5 dvejetainėje sistemoje yra 101, nes 4 + 1 = 5.
+Kompiuteriai naudoja dvejetainę sistemą, nes elektroniniai komponentai turi dvi būsenas: įjungta ir išjungta.
+
+====================================
+Sugeneruok Y išvestį šia tvarka:
+1) y_summary
+2) y_test
+3) y_plan
+4) y_chat
+====================================

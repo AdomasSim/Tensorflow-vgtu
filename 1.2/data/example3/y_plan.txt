@@ -1,0 +1,7 @@
+Mokymosi planas:
+
+1 žingsnis: Išmok SELECT sintaksės pagrindus (SELECT, FROM).
+2 žingsnis: Praktikuok stulpelių pasirinkimą iš vienos lentelės.
+3 žingsnis: Įsisavink WHERE sąlygą ir įvairius operatorius (>, <, =, LIKE).
+4 žingsnis: Pridėk ORDER BY ir išmok rūšiuoti rezultatus.
+5 žingsnis: Sukurk keletą savo užklausų su skirtingomis lentelėmis ir sąlygomis.

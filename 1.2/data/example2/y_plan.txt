@@ -1,0 +1,7 @@
+Mokymosi planas:
+
+1 žingsnis: Susipažink su HTTP paskirtimi ir architektūra (klientas–serveris).
+2 žingsnis: Išmok pagrindinius metodus (GET, POST, PUT, DELETE) ir jų paskirtį.
+3 žingsnis: Pažvelk į praktinius pavyzdžius – naršyklės užklausos, HTTP galvutės.
+4 žingsnis: Išmok populiariausius atsako kodus (200, 301, 400, 404, 500).
+5 žingsnis: Naudok naršyklės „Developer Tools“ arba `curl` HTTP užklausų analizei.

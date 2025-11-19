@@ -1,0 +1,7 @@
+Klausimas:
+Kuo naudinga ORDER BY dalis SQL SELECT užklausoje?
+
+AI atsakymas:
+ORDER BY dalis leidžia surūšiuoti SELECT užklausos rezultatus pagal pasirinktą stulpelį ar kelis stulpelius.
+Pavyzdžiui, ORDER BY age ASC surikiuos naudotojus nuo jauniausio iki vyriausio.
+Be ORDER BY duomenys dažnai grąžinami neprognozuojama tvarka, todėl sunkiau juos analizuoti.

@@ -1,0 +1,8 @@
+Klausimas:
+Kuo skiriasi GET ir POST užklausos HTTP protokole?
+
+AI atsakymas:
+GET užklausa naudojama duomenims gauti iš serverio ir paprastai nekeičia serverio būsenos.
+Užklausos parametrai dažnai perduodami URL eilutėje.
+POST užklausa dažniausiai naudojama duomenims siųsti į serverį, pavyzdžiui, formos duomenims.
+Ji gali pakeisti serverio būseną (sukurti naują įrašą, išsaugoti formos duomenis) ir duomenis siunčia užklausos body dalyje.

@@ -1,0 +1,82 @@
+@startuml
+entity "User" as User {
+  * id : UUID <<PK>>
+  --
+  email : varchar
+  password_hash : varchar
+  full_name : varchar
+  role : enum("student","teacher","admin")
+  created_at : timestamp
+}
+
+entity "Document" as Document {
+  * id : UUID <<PK>>
+  --
+  user_id : UUID <<FK>>
+  title : varchar
+  original_filename : varchar
+  storage_path : varchar
+  text_content : text
+  created_at : timestamp
+}
+
+entity "Summary" as Summary {
+  * id : UUID <<PK>>
+  --
+  document_id : UUID <<FK>>
+  summary_text : text
+  created_at : timestamp
+}
+
+entity "Test" as Test {
+  * id : UUID <<PK>>
+  --
+  document_id : UUID <<FK>>
+  title : varchar
+  created_at : timestamp
+}
+
+entity "Question" as Question {
+  * id : UUID <<PK>>
+  --
+  test_id : UUID <<FK>>
+  question_text : text
+}
+
+entity "Option" as Option {
+  * id : UUID <<PK>>
+  --
+  question_id : UUID <<FK>>
+  option_text : text
+  is_correct : boolean
+  explanation : text
+}
+
+entity "LearningPlan" as LearningPlan {
+  * id : UUID <<PK>>
+  --
+  document_id : UUID <<FK>>
+  plan_text : text
+  created_at : timestamp
+}
+
+entity "ChatMessage" as ChatMessage {
+  * id : UUID <<PK>>
+  --
+  document_id : UUID <<FK>>
+  user_id : UUID <<FK>>
+  sender : enum("user","ai")
+  message_text : text
+  created_at : timestamp
+}
+
+User ||--o{ Document : "įkelia"
+Document ||--o{ Summary : "turi"
+Document ||--o{ Test : "turi daug"
+Test ||--o{ Question : "turi"
+Question ||--o{ Option : "turi"
+Document ||--o{ LearningPlan : "turi"
+Document ||--o{ ChatMessage : "turi"
+User ||--o{ ChatMessage : "rašė"
+
+@enduml

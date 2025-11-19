@@ -1,0 +1,25 @@
+Testas:
+
+1) Kiek skaitmenų naudoja dvejetainė skaičiavimo sistema?
+   A) 1
+   B) 2
+   C) 10
+   D) 16
+   Teisingas atsakymas: B
+   Paaiškinimas: Dvejetainė sistema naudoja tik 0 ir 1, todėl yra dvinarė.
+
+2) Kokia yra skaičiaus 5 dvejetainė išraiška?
+   A) 100
+   B) 101
+   C) 110
+   D) 111
+   Teisingas atsakymas: B
+   Paaiškinimas: 101 dvejetainėje reiškia 4 + 0 + 1 = 5.
+
+3) Kodėl kompiuteriai naudoja dvejetainę sistemą?
+   A) Nes ją lengva suprasti žmonėms
+   B) Nes ji sutaupo atminties
+   C) Nes elektroniniai komponentai turi dvi būsenas
+   D) Nes taip nusprendė programuotojai
+   Teisingas atsakymas: C
+   Paaiškinimas: Dvejetainė sistema tiesiogiai atitinka įjungta/išjungta būsenas.
